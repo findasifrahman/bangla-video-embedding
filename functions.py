@@ -33,14 +33,14 @@ def getVideoRecords(response: requests.models.Response) -> list:
 
 def getVideoIDs():
     """
-        Function to return all video IDs for Shaw Talebi's YouTube channel
+        Function to return all video IDs for Bangla YouTube channel
 
         Dependencies: 
             - getVideoRecords()
     """
 
 
-    channel_id = 'UCa9gErQ9AE5jT2DZLjXBIdA' # my YouTube channel ID
+    channel_id = 'UCA4y9g_GRdNrZLH_u5LLSdw' # Bangla YouTube channel ID
     page_token = None # initialize page token
     url = 'https://www.googleapis.com/youtube/v3/search' # YouTube search API endpoint
     my_key = os.getenv('YT_API_KEY')
