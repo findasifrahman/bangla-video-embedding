@@ -31,7 +31,7 @@ def getVideoRecords(response: requests.models.Response) -> list:
     return video_record_list
 
 
-def getVidId():
+def getVideoIDs():
     """
         Function to return all video IDs for Shaw Talebi's YouTube channel
 

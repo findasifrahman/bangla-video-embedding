@@ -5,7 +5,7 @@ import datetime
 print(datetime, datetime.datetime.now())
 
 t0 = time.time()
-getVidId()
+getVideoIDs()
 ti = time.time()
 print("step 1: done")
 print("---> Video IDS downloaded in: ", ti-t0, " seconds")
