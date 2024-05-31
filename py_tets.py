@@ -3,11 +3,11 @@ import time
 import datetime
 
 print(datetime, datetime.datetime.now())
-
+#updated comment
 t0 = time.time()
 getVideoIDs()
 ti = time.time()
-print("step 1: done is done")
+print("step 1: done ")
 print("---> Video IDS downloaded in: ", ti-t0, " seconds")
 
 t0 = time.time()
